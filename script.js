@@ -7,7 +7,7 @@ import { Color } from 'three'
 
 // Texture loader
 const loader = new THREE.TextureLoader()
-const cross = loader.load('./cross.png')
+const cross = loader.load('cross.png')
 
 // Debug
 const gui = new dat.GUI()
